@@ -3,7 +3,7 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
-    font-family: poppins, actor;
+    font-family: poppins, actor,adana;
     
 }
 .top{
@@ -118,13 +118,36 @@
     background-color: #f4f1ed;
 }
 .collections h3{
-    padding: 120px;
+    padding: 20px;
     margin-left: 50px;
     margin-bottom: 5px;
     text-decoration: overline solid brown;
 
 }
-
+footer span{
+    color: #FFAC12;
+    
+}
+.social-media-icons a{
+    color:white;
+    padding: 10px;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-left: 50px;
+    
+}
+footer h3{
+    margin-left: 75px;
+    padding-top: 50px;
+}
+footer{
+    background-color: #271b14;
+    color: white;
+    padding-bottom: 80px;
+}
 
 
    
