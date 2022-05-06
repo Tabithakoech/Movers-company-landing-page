@@ -60,7 +60,7 @@
 }
 .hustle{
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 .hustle img{
     height: 300px;
@@ -81,6 +81,51 @@
     text-decoration: overline solid brown;
 
 }
+.mover_collection{
+    display: flex;
+    padding: 20px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+.mover_collection img{
+    height: 300px;
+    width: auto;
+    padding: 10px;
+   
+}
+.mover_collection p{
+    padding-left: 15px;
+    padding-bottom: 5px;
+}
+
+.mover_collection2{
+    display: flex;
+    padding: 20px;
+    margin-left: 50px;
+    margin-bottom: 5px;
+}
+
+.mover_collection2 img{
+    height: 300px;
+    width: auto;
+    padding: 10px;
+
+}
+.mover_collection2 p{
+    padding-left: 15px;
+}
+.collections{
+    background-color: #f4f1ed;
+}
+.collections h3{
+    padding: 120px;
+    margin-left: 50px;
+    margin-bottom: 5px;
+    text-decoration: overline solid brown;
+
+}
+
+
 
    
     
