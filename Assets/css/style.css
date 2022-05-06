@@ -3,9 +3,15 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    font-family: poppins, actor;
+    
 }
 .top{
     background-image:url("../images/moving1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+    
 }
 
 .nav-bar ul  {
@@ -45,7 +51,36 @@
     padding-bottom: 100px;
     padding-left: 50px;
 }
-  
+.nav-bar button{
+    border-radius: 5px;
+    border: 0px;
+}
+.nav-bar a:hover{
+    color: chocolate;
+}
+.hustle{
+    display: flex;
+    margin-bottom: 50px;
+}
+.hustle img{
+    height: 300px;
+    width: auto;
+}
+#wordy{
+    padding: 50px;
+}
+#wordy button{
+    color: #FAFF00;
+    background-color: black;
+    border-radius: 0px 12px 0px 0px;
+    padding: 9px;
+    border: none;
+    
+}
+#wordy h3{
+    text-decoration: overline solid brown;
+
+}
 
    
     
