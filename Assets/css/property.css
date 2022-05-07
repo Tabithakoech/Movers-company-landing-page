@@ -1,0 +1,65 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: poppins, actor,adana;
+    
+}
+.topp{
+    background-color: #271b14;
+    padding-bottom: 80px;
+}
+.nav-links ul  {
+    float: right;
+    display: flex;
+    justify-content: space-between;  
+    padding-top: 20px; 
+    padding-bottom: 20px;
+   
+}
+.nav-links  li{
+    justify-content: space-between;
+    padding: 10px;
+}
+.nav-links .yellow{
+    color: black;
+    background-color:#FAFF00 ;
+}
+.nav-links .black{
+    color: #FAFF00;
+    background-color:black;
+
+}
+.nav-links .work-with-us{
+    color: black;
+    background-color: #FFAC12;
+    margin-right: 100px;
+    border-radius: 0px 12px 0px 0px;
+    padding: 5px;
+}
+.nav-links a{
+    color: white;
+}
+.nav-links button{
+    border-radius: 5px;
+    border: 0px;
+    padding: 6px;
+}
+.nav-links a:hover{
+    color: chocolate;
+}
+.navlink-bot{
+    
+    color: white;
+    padding: 100px;
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+.navlink-bot .cost{
+    margin-left: 960px;
+    
+    
+    
+}
+
+
