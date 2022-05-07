@@ -58,7 +58,48 @@
 .navlink-bot .cost{
     margin-left: 960px;
     
+}
+.mid{
+    background-color: #f4f1ed;
     
+    padding-top: 50px;
+}
+.large-img-and-form{
+    display: flex;
+}
+.mid img{
+    height: 525px;
+    width: auto;
+    margin-left: 100px;
+}
+.mid .form-btn{
+    background-color: #271b14;
+    color: white;
+    border-radius: 0px 12px 0px 0px;
+    border: 0px;
+}
+.form{
+    padding: 20px;
+    background-color: #f7f1ee;
+    border-radius: 15px;
+    border: 10px;
+}
+
+    
+
+.form-in input{
+    padding: 20px;
+    border-radius: 15px;
+}
+.small-imgs{
+    display: flex;
+    margin-left: 100px;
+}
+.small-imgs img{
+    height: 100px;
+    width: auto;
+    padding: 10px;
+    margin: 1px;
     
 }
 
