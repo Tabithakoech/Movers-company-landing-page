@@ -162,11 +162,50 @@
 .listings img{
     height: 290px;
     width: auto;
-    padding: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 0px;
     margin-left: 0px;
+    margin-bottom: 0px;
 }
 .similar{
     margin-left: 100px;
     margin-bottom: 50px;
 
+
+}
+.icons1 img{
+    
+    height: 50px;
+    width: 50px;
+}
+.malto1-icons{
+    display: flex;
+    position: relative;
+    top: 0px;
+    
+}
+.icons1{
+    background-color: #f7f1ee;
+    border: 200px;
+    border-radius: 30px;
+}
+.malto2-icons{
+    display: flex;
+    position: relative;
+    top: 0px;
+    padding-right: 2px;
+}
+.icons2{
+    background-color: #f7f1ee;
+    border: 200px;
+    border-radius: 30px;
+    padding: 10px;
+}
+.icons2 img{
+    
+    height: 50px;
+    width: 50px;
+    border-right-style: groove;
+    border-color: lightgray;
 }
