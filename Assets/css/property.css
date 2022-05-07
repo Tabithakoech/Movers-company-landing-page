@@ -134,3 +134,39 @@
 .description p{
     padding-left: 10px;
 }
+.checklist{
+    display: flex;
+}
+.features{
+    margin-left: 100px;
+    background-color: #f7f1ee;
+    border: 200px;
+    border-color: #271b14;
+    border-radius: 30px;
+    margin-right: 555px;
+    margin-bottom: 50px;
+    
+
+}
+.features h3{
+    padding:10px 15px;
+
+}
+.features ul{
+    padding: 30px;
+    margin: 5px;
+}
+.listings{
+    display: flex;
+}
+.listings img{
+    height: 290px;
+    width: auto;
+    padding: 20px;
+    margin-left: 0px;
+}
+.similar{
+    margin-left: 100px;
+    margin-bottom: 50px;
+
+}
