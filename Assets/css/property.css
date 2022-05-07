@@ -209,3 +209,35 @@
     border-right-style: groove;
     border-color: lightgray;
 }
+
+footer span{
+    color: #FFAC12;
+    
+}
+.social-media-icons a{
+    color:white;
+    padding: 10px;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-left: 50px;
+    
+}
+footer h3{
+    margin-left: 75px;
+    padding-top: 50px;
+}
+footer{
+    background-color: #271b14;
+    color: white;
+    padding-bottom: 80px;
+}
+footer .sentence{
+    display: flex;
+    justify-content: space-between;
+}
+footer .sentence{
+    padding: 20px;
+}
