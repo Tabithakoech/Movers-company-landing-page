@@ -206,6 +206,9 @@
 .checklist{
     display: flex;
 }
+.checklist ul li span{
+    color: #FFAC12;
+}
 .features{
     margin-left: 100px;
     background-color: #f7f1ee;
