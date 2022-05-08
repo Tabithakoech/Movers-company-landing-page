@@ -2,9 +2,7 @@
 ### **A movers company landing page**
 This a website for a movers company developed as a submission for Moringa School weekly Independent project.
 Employing the HTML and CSS design concepts in reproducing the landing page of a quick movers company.
-### **Author Name** --Tabitha Chepngetich
-<br>
-<br>
+### **Author Name** --***Tabitha Chepngetich***
 
 ### **Description of program**
 This project is a web application  of a quick movers company which offers movers services. It displays the services offered by the quick movers company and allows the users to log in,and contact the company for inquiries.
