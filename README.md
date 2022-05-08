@@ -18,10 +18,9 @@ HTML - which was used to develop the structure of the page <br>   CSS - which wa
 
 * Open the index file from the zipped file with any browser.
 <br>
-<br>
 
 ### **Link to the site on GitHub Pages**
-To check out the website live at:
+To check out the website live at: https://tabithakoech.github.io/Movers-company-landing-page/
 <br>
 
 

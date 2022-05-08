@@ -272,7 +272,7 @@
     background-color: #f7f1ee;
     
     border-radius: 0px 0px  20px 20px;
-    height: 100px;
+    height: 70px;
     width: 341px;
 
 
@@ -287,9 +287,10 @@
     top: 0px;
     border-top: solid lightgray;
 }
-.malto2-icons .one, .two, .three{
-    display: inline-block;
+.icons2 .malto2-icons .one, .two, .three{
     border-right: solid lightgray;
+    padding: 0px 30px 0px 30px;
+    align-items: center;
    
 }
 .malto2-icons .three{
@@ -299,10 +300,8 @@
 
 .icons2{
     background-color: #f7f1ee;
-    border: 50px;
-    margin: 0px 20px 0px 0px;
     border-radius: 0px 0px  20px 20px;
-    height: 120px;
+    height: 70px;
     width: 341px;
 }
 .icons2 h3{
@@ -313,7 +312,6 @@
     
     height: 23px;
     width: 23px;
-    border-color: lightgray;
 }
 .icons2 .malto2-icons{
     display: flex;
@@ -321,10 +319,11 @@
 }
 .icons3 img{
     
-    height: 30px;
-    width: 30px;
+    height: 23px;
+    width: 23px;
 }
 .icons3 h3{
+    padding: 5px;
     margin: 0px;
 }
 .malto3-icons{
@@ -334,11 +333,11 @@
     border-top: solid lightgray;
     
 }
-.malto3-icons .one, .two, .three{
+.icons3 .malto3-icons .one, .two, .three{
     display: inline-block;
     border-right: solid lightgray;
-    margin: 0px;
-    padding: 10px 45px 5px 45px;
+    align-items: center;
+    padding: 0px 30px 0px 30px;
 }
 .malto3-icons .three{
     border-right: none;
@@ -346,19 +345,18 @@
 
 .icons3{
     background-color: #f7f1ee;
-    border: 50px;
-    margin: 0px 20px 0px 0px;
     border-radius: 0px 0px  20px 20px;
-    height: 120px;
+    height: 80px;
     width: 341px;
 
 }
 .icons4 img{
     
-    height: 30px;
-    width: 30px;
+    height: 23px;
+    width: 23px;
 }
 .icons4 h3{
+    padding:5px ;
     margin: 0px;
 }
 .malto4-icons{
@@ -368,9 +366,10 @@
     border-top: solid lightgray;
     
 }
-.malto4-icons .one, .two, .three{
-    display: inline-block;
+.icons4 .malto4-icons .one, .two, .three{
     border-right: solid lightgray;
+    padding: 0px 30px 0px 30px;
+    align-items: center;
 }
 .malto4-icons .three{
     border-right: none;
@@ -378,10 +377,8 @@
 
 .icons4{
     background: #f7f1ee;
-    border: 50px;
     border-radius: 0px 0px  20px 20px;
-    margin: 0px 20px 0px 0px;
-    height: 120px;
+    height: 70px;
     width: 341px;
 
 }
