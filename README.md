@@ -7,16 +7,24 @@ Employing the HTML and CSS design concepts in reproducing the landing page of a 
 <br>
 
 ### **Description of program**
-<br>
+This project is a web application  of a quick movers company which offers movers services. It displays the services offered by the quick movers company and allows the users to log in,and contact the company for inquiries.
+#### **Technology used**
+HTML - which was used to develop the structure of the page <br>   CSS - which was used to style the User Interface.  
 <br>
 
 ### **program setup instructions**
+* Clone  the repo : git clone https://github.com/Tabithakoech/Movers-company-landing-page.git
+
+* Unzip the downloaded files in a folder of choice.
+
+* Open the index file from the zipped file with any browser.
 <br>
 <br>
 
 ### **Link to the site on GitHub Pages**
+To check out the website live at:
 <br>
-<br>
+
 
 ### **Copyright and license information**
 [MIT](https://opensource.org/licenses/MIT)
