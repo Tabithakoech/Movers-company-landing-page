@@ -3,12 +3,17 @@
     list-style: none;
     box-sizing: border-box;
     font-family: poppins, actor,adana;
+   
     
 }
+
 .topp{
     background-color: #271b14;
     padding-bottom: 80px;
 }
+
+
+
 .nav-links ul  {
     float: right;
     display: flex;
@@ -54,10 +59,19 @@
     padding: 100px;
     justify-content: space-between;
     padding-bottom: 5px;
+    display: flex;
 }
 .navlink-bot .cost{
-    margin-left: 960px;
+    margin-left: 740px;
     
+}
+
+.cost p{
+    display: inline-block;
+    white-space: nowrap;
+}
+.modern p{
+    white-space: nowrap;
 }
 .mid-section{
     background-color: lightgray;
@@ -106,16 +120,23 @@
 #details{
     margin-left: 100px;
     background-color: #f7f1ee;
-    border: 200px;
+    border: 20px;
     border-color: #271b14;
     border-radius: 30px;
     margin-right: 555px;
 }
 #details img{
-    padding: 50px;
+    padding-right: 60px;
+    border-right: solid lightgray 1px;
+    padding-left: 20px;
+    border-top: 10px;
+    
 }
-#details h3{
+.det h3{
     padding:10px 15px;
+}
+.icons-det{
+    border-top: solid lightgrey;
 }
 .description{
     margin-left: 100px;
@@ -158,6 +179,8 @@
 }
 .listings{
     display: flex;
+    border-bottom: 0px;
+    margin-bottom: 0px;
 }
 .listings img{
     height: 290px;
@@ -178,37 +201,112 @@
     
     height: 50px;
     width: 50px;
+    
 }
 .malto1-icons{
     display: flex;
     position: relative;
     top: 0px;
+    border-top: solid lightgray;
     
 }
+.malto1-icons .one, .two, .three{
+    display: inline-block;
+    border-right: solid lightgray;
+}
+.malto1-icons .three{
+    border-right: none;
+}
+
 .icons1{
     background-color: #f7f1ee;
-    border: 200px;
-    border-radius: 30px;
+    margin: 0px 20px 0px 0px;
+    border: 50px;
+    border-radius: 0px 0px  20px 20px;
 }
 .malto2-icons{
     display: flex;
     position: relative;
     top: 0px;
-    padding-right: 2px;
+    border-top: solid lightgray;
 }
+.malto2-icons .one, .two, .three{
+    display: inline-block;
+    border-right: solid lightgray;
+    padding: 20px;
+}
+.malto2-icons .three{
+    border-right: none;
+}
+
+
 .icons2{
     background-color: #f7f1ee;
-    border: 200px;
-    border-radius: 30px;
-    padding: 10px;
+    border: 50px;
+    margin: 0px 20px 0px 0px;
+    border-radius: 0px 0px  20px 20px;
 }
 .icons2 img{
     
     height: 50px;
     width: 50px;
-    border-right-style: groove;
     border-color: lightgray;
 }
+.icons3 img{
+    
+    height: 50px;
+    width: 50px;
+}
+.malto3-icons{
+    display: flex;
+    position: relative;
+    top: 0px;
+    border-top: solid lightgray;
+    
+}
+.malto3-icons .one, .two, .three{
+    display: inline-block;
+    border-right: solid lightgray;
+}
+.malto3-icons .three{
+    border-right: none;
+}
+
+.icons3{
+    background-color: #f7f1ee;
+    border: 50px;
+    margin: 0px 20px 0px 0px;
+    border-radius: 0px 0px  20px 20px;
+
+}
+.icons4 img{
+    
+    height: 50px;
+    width: 50px;
+}
+.malto4-icons{
+    display: flex;
+    position: relative;
+    top: 0px;
+    border-top: solid lightgray;
+    
+}
+.malto4-icons .one, .two, .three{
+    display: inline-block;
+    border-right: solid lightgray;
+}
+.malto4-icons .three{
+    border-right: none;
+}
+
+.icons4{
+    background-color: #f7f1ee;
+    border: 200px;
+    border-radius: 0px 0px  20px 20px;
+    margin: 0px 20px 0px 0px;
+
+}
+
 
 footer span{
     color: #FFAC12;
@@ -225,19 +323,30 @@ footer span{
     margin-left: 50px;
     
 }
-footer h3{
+.sentence button{
+    box-sizing: border-box;
+    height: 100px;
+    width: auto;
+}
+.sentence>h3{
     margin-left: 75px;
-    padding-top: 50px;
+}
+.sentence span{
+    padding-left: 30px;
 }
 footer{
     background-color: #271b14;
     color: white;
     padding-bottom: 80px;
 }
-footer .sentence{
+ .sentence{
     display: flex;
     justify-content: space-between;
+    padding-top: 50px;
 }
-footer .sentence{
-    padding: 20px;
+.us {
+    border: 20px 20px;
+    height: 20px;
+    width: 150px;
 }
+
