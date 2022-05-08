@@ -168,18 +168,23 @@
     border-radius: 30px;
     margin-right: 555px;
 }
-#details img{
-    padding-right: 60px;
+.icons-det .first, .second, .third, .fourth{
+    
     border-right: solid lightgray 1px;
-    padding-left: 20px;
     border-top: 10px;
     
 }
-.det h3{
-    padding:10px 15px;
+.icons-det .first, .second, .third, .fourth, .fifth{
+    padding:10px 38px 5px 38px;
+  
+}
+#details h3{
+    padding:20px ;
 }
 .icons-det{
     border-top: solid lightgrey;
+    display: flex;
+  
 }
 .description{
     margin-left: 100px;
@@ -192,7 +197,7 @@
 }
 
 .description h3{
-    padding:10px 15px;
+    padding:20px;
 
 }
 .description p{
@@ -213,7 +218,7 @@
 
 }
 .features h3{
-    padding:10px 15px;
+    padding:20px;
 
 }
 .features ul{
@@ -242,21 +247,18 @@
 }
 .icons1 img{
     
-    height: 30px;
-    width: 30px;
+    height: 23px;
+    width: 23px;
     
 }
-.malto1-icons{
+.icons1 .malto1-icons{
     display: flex;
-    position: relative;
-    top: 0px;
     border-top: solid lightgray;
     
 }
-.malto1-icons .one, .two, .three{
-    display: inline-block;
+.icons1 .malto1-icons .one, .two, .three{
     border-right: solid lightgray;
-    padding: 10px;
+    padding: 0px 30px 0px 30px;
     align-items: center;
 }
 .malto1-icons .three{
@@ -265,15 +267,16 @@
 
 .icons1{
     background-color: #f7f1ee;
-    margin: 0px 20px 0px 0px;
-    border: 50px;
+    
     border-radius: 0px 0px  20px 20px;
-    height: 120px;
+    height: 100px;
     width: 341px;
+
 
 }
 .icons1 h3{
-    margin: 0px;
+    padding: 5px;
+    margin: 0;
 }
 .malto2-icons{
     display: flex;
@@ -284,7 +287,7 @@
 .malto2-icons .one, .two, .three{
     display: inline-block;
     border-right: solid lightgray;
-    padding: 20px;
+   
 }
 .malto2-icons .three{
     border-right: none;
@@ -300,13 +303,18 @@
     width: 341px;
 }
 .icons2 h3{
-    margin: 0px;
+    padding: 5px;
+    margin: 0;
 }
 .icons2 img{
     
-    height: 30px;
-    width: 30px;
+    height: 23px;
+    width: 23px;
     border-color: lightgray;
+}
+.icons2 .malto2-icons{
+    display: flex;
+    border-top: solid lightgray;
 }
 .icons3 img{
     
@@ -327,6 +335,7 @@
     display: inline-block;
     border-right: solid lightgray;
     margin: 0px;
+    padding: 10px 45px 5px 45px;
 }
 .malto3-icons .three{
     border-right: none;
@@ -390,6 +399,10 @@ footer span{
     margin-left: 50px;
     
 }
+.bottom .threee{
+    margin-right: 160px;
+
+}
 .sentence button{
     box-sizing: border-box;
     height: 100px;
@@ -411,10 +424,22 @@ footer{
     justify-content: space-between;
     padding-top: 50px;
 }
-.us {
+.sentence .us {
     border: 20px 20px;
     height: 20px;
     width: 150px;
+    margin-right: 180px;
+    padding: 20px;
+    color: black;
+    background-color: #FFAC12;
+    border-radius: 0px 10px 0px 0px;
+    border: none;
+}
+.sentence .us:hover{
+    background-color: #EFEAD8;
+}
+.sentence button{
+    padding: 20px;
 }
 
 @media screen and (max-width=700px){
