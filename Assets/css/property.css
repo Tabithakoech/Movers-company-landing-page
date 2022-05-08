@@ -115,6 +115,29 @@
     border-radius: 15px;
     border: 50px;
 }
+.form-in img{
+    height: 80px;
+    width: 80px;
+    border-radius: 80%;
+    padding-bottom: 10px;
+    text-align: left;
+    margin-left: 10px;
+}
+.form-in .profile{
+    display: flex;
+    background: #EFEAD8;
+    border-radius: 10px;
+}
+.form-in .profile a{
+    color: #ea5a12;
+}
+.form-in .profile a:hover{
+    color: #271b14;
+}
+.form-in .profile .name p,a{
+    margin: 0px;
+    padding-left: 10px;
+}
 
     
 
