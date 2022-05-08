@@ -8,8 +8,8 @@
 }
 
 .topp{
-    background-color: #271b14;
-    padding-bottom: 80px;
+    background:  #050505;
+    padding-bottom: 10px;
 }
 
 
@@ -42,6 +42,9 @@
     border-radius: 0px 12px 0px 0px;
     padding: 5px;
 }
+.nav-links button:hover{
+    background-color: #9a4013;
+}
 .nav-links a{
     color: white;
 }
@@ -62,16 +65,27 @@
     display: flex;
 }
 .navlink-bot .cost{
-    margin-left: 740px;
+    margin-left: 855px;
     
 }
+.cost h3{
+    padding: 0px;
+    margin: 0px;
+}
+
 
 .cost p{
     display: inline-block;
     white-space: nowrap;
+    font-size: 10px;
 }
 .modern p{
     white-space: nowrap;
+    font-size: 10px;
+}
+.modern h3{
+    margin: 0px;
+    padding: 0px;
 }
 .mid-section{
     background-color: lightgray;
@@ -90,7 +104,10 @@
     background-color: #271b14;
     color: white;
     border-radius: 0px 12px 0px 0px;
-    border: 0px;
+    border: 50px;
+    height:60px;
+    width: 295px;
+    padding: 20px;
 }
 .form-in{
     padding: 20px;
@@ -104,15 +121,18 @@
 .form-in input{
     padding: 20px;
     border-radius: 15px;
+    border-color: rgb(240, 234, 234);
+
 }
+
 .small-imgs{
     display: flex;
     margin-left: 100px;
 }
 .small-imgs img{
     height: 100px;
-    width: auto;
-    padding: 10px;
+    width: 95px;
+    padding: 5px;
     margin: 1px;
     
 }
@@ -182,7 +202,7 @@
     border-bottom: 0px;
     margin-bottom: 0px;
 }
-.listings img{
+.listings .up{
     height: 290px;
     width: auto;
     padding-top: 20px;
@@ -199,8 +219,8 @@
 }
 .icons1 img{
     
-    height: 50px;
-    width: 50px;
+    height: 30px;
+    width: 30px;
     
 }
 .malto1-icons{
@@ -213,6 +233,8 @@
 .malto1-icons .one, .two, .three{
     display: inline-block;
     border-right: solid lightgray;
+    padding: 10px;
+    align-items: center;
 }
 .malto1-icons .three{
     border-right: none;
@@ -223,6 +245,12 @@
     margin: 0px 20px 0px 0px;
     border: 50px;
     border-radius: 0px 0px  20px 20px;
+    height: 120px;
+    width: 341px;
+
+}
+.icons1 h3{
+    margin: 0px;
 }
 .malto2-icons{
     display: flex;
@@ -245,17 +273,25 @@
     border: 50px;
     margin: 0px 20px 0px 0px;
     border-radius: 0px 0px  20px 20px;
+    height: 120px;
+    width: 341px;
+}
+.icons2 h3{
+    margin: 0px;
 }
 .icons2 img{
     
-    height: 50px;
-    width: 50px;
+    height: 30px;
+    width: 30px;
     border-color: lightgray;
 }
 .icons3 img{
     
-    height: 50px;
-    width: 50px;
+    height: 30px;
+    width: 30px;
+}
+.icons3 h3{
+    margin: 0px;
 }
 .malto3-icons{
     display: flex;
@@ -267,6 +303,7 @@
 .malto3-icons .one, .two, .three{
     display: inline-block;
     border-right: solid lightgray;
+    margin: 0px;
 }
 .malto3-icons .three{
     border-right: none;
@@ -277,12 +314,17 @@
     border: 50px;
     margin: 0px 20px 0px 0px;
     border-radius: 0px 0px  20px 20px;
+    height: 120px;
+    width: 341px;
 
 }
 .icons4 img{
     
-    height: 50px;
-    width: 50px;
+    height: 30px;
+    width: 30px;
+}
+.icons4 h3{
+    margin: 0px;
 }
 .malto4-icons{
     display: flex;
@@ -300,10 +342,12 @@
 }
 
 .icons4{
-    background-color: #f7f1ee;
-    border: 200px;
+    background: #f7f1ee;
+    border: 50px;
     border-radius: 0px 0px  20px 20px;
     margin: 0px 20px 0px 0px;
+    height: 120px;
+    width: 341px;
 
 }
 
@@ -335,7 +379,7 @@ footer span{
     padding-left: 30px;
 }
 footer{
-    background-color: #271b14;
+    background: #271b14;
     color: white;
     padding-bottom: 80px;
 }
@@ -350,3 +394,12 @@ footer{
     width: 150px;
 }
 
+@media screen and (max-width=700px){
+    footer{
+       
+        background:azure;
+    }
+    .topp{
+        background: azure;
+    }
+}
